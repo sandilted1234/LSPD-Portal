@@ -23776,7 +23776,7 @@ function $v({officer: r}) {
         d("ending")
     }
       , j = () => {
-        y("/do uploads the bodycam content to FIB servers and stops recording", "Bodycam Off", () => {
+        y("/do uploads the bodycam content to LSPD servers and stops recording", "Bodycam Off", () => {
             Hv(r?.badgeNumber),
             d("off"),
             r?.id && Mm(r.id, !1)
@@ -23888,7 +23888,7 @@ function $v({officer: r}) {
                 className: "bg-[#2a3442] rounded-lg p-4 border border-amber-500/50 card-interactive",
                 children: [h.jsx("p", {
                     className: "text-gray-300 font-mono text-sm mb-3",
-                    children: "/do uploads the bodycam content to FIB servers and stops recording"
+                    children: "/do uploads the bodycam content to LSPD servers and stops recording"
                 }), h.jsx("button", {
                     onClick: j,
                     className: "btn-success btn-ripple px-6 py-3 bg-green-500 hover:bg-green-400 text-black rounded-lg font-bold transition-colors",
